@@ -1,0 +1,35 @@
+/* LORE memory viewer; all rules are scoped to this feature. */
+#lore .memory-trigger{display:block;position:absolute;inset:0;z-index:2;width:100%;padding:0;border:0;background:transparent;cursor:pointer;color:var(--pink)}
+#lore .memory-trigger::after{content:'[ OPEN MEMORY ]';position:absolute;inset:auto 0 23px;text-align:center;font-size:9px;letter-spacing:1px;background:#151416e8;padding:7px 3px;opacity:0;transition:opacity .15s}
+#lore .story-visual:has(.memory-trigger:hover),#lore .story-visual:focus-within{border-color:var(--pink);box-shadow:inset 0 0 0 1px #cc8d9d40}
+#lore .memory-trigger:hover::after,#lore .memory-trigger:focus-visible::after{opacity:1}
+#lore .memory-trigger:focus-visible{outline:2px solid var(--pink);outline-offset:-3px}
+.memory-dialog{box-sizing:border-box;width:min(1080px,calc(100% - 32px));max-width:none;max-height:calc(100vh - 24px);max-height:calc(100dvh - 24px);margin:auto;padding:0;border:1px solid var(--pink);border-radius:0;background:#151416;color:var(--text);font:12px/1.5 'Courier New',monospace;box-shadow:5px 5px 0 #0008;overflow:auto;overscroll-behavior:contain}
+.memory-dialog::backdrop{background:#080709e8}
+.memory-header{display:flex;align-items:center;justify-content:space-between;gap:12px;border-bottom:1px solid var(--line);padding:5px 8px 5px 16px;color:var(--pink);font-size:10px;letter-spacing:1.5px;background:#211b20}
+.memory-dialog button{border:1px solid #715460;background:#211b20;color:var(--pink);min-width:44px;min-height:44px;padding:7px 12px;border-radius:0}
+.memory-dialog button:hover{background:#3a2832;border-color:var(--pink)}
+.memory-dialog button:focus-visible{outline:2px solid var(--pink);outline-offset:-4px}
+.memory-picture{margin:12px 12px 0;border:1px solid var(--line);background:#0f0e10;aspect-ratio:3/2;max-height:calc(100vh - 230px);max-height:calc(100dvh - 230px);min-height:80px;position:relative;display:flex;align-items:center;justify-content:center;overflow:hidden}
+.memory-picture img{display:block;width:100%;height:100%;object-fit:contain;min-height:0;image-rendering:pixelated}
+.memory-picture::after{content:'';position:absolute;inset:0;pointer-events:none;background:repeating-linear-gradient(0deg,transparent 0,transparent 3px,#00000016 3px,#00000016 4px)}
+.memory-caption{padding:12px 16px;max-height:24vh;max-height:24dvh;overflow:auto}
+.memory-date{color:var(--pink);font-size:11px}
+.memory-title{font-size:15px;letter-spacing:1px;font-weight:normal;margin:3px 0 6px}
+.memory-description{margin:0;font-size:12px;color:var(--muted);white-space:pre-line}
+.memory-footer{border-top:1px solid var(--line);padding:8px 12px;display:flex;align-items:center;justify-content:space-between;gap:12px}
+.memory-footer button{font-size:20px;line-height:1}
+.memory-counter{color:var(--muted);font-size:10px;letter-spacing:2px}
+.memory-status{position:absolute;inset:auto 0 8px;text-align:center;background:#151416e8;color:var(--pink);font-size:11px;padding:8px}
+.memory-status[hidden]{display:none}
+@media(hover:none){#lore .memory-trigger::after{opacity:1;font-size:7px;padding:4px 2px;inset:auto 0 20px}}
+@media(max-width:650px){.memory-dialog{width:calc(100% - 20px)}.memory-header{font-size:9px;padding-left:11px}.memory-picture{margin:8px 8px 0}.memory-caption{padding:10px 12px}.memory-title{font-size:12px}.memory-description{font-size:11px}.memory-footer{padding:6px 8px}}
+/* Keep the image frame full-width even when viewport height limits it. */
+.memory-picture{width:calc(100% - 24px)}
+@media(max-width:650px){.memory-picture{width:calc(100% - 16px)}}
+@media(max-height:500px) and (min-width:600px){
+ .memory-dialog[open]{display:grid;height:calc(100vh - 24px);height:calc(100dvh - 24px);grid-template-columns:minmax(0,1.5fr) minmax(180px,1fr);grid-template-rows:auto minmax(0,1fr) auto;overflow:hidden}
+ .memory-header,.memory-footer{grid-column:1/-1}
+ .memory-picture{grid-column:1;grid-row:2;width:auto;height:auto;min-height:0;max-height:none;aspect-ratio:auto;margin:10px}
+ .memory-caption{grid-column:2;grid-row:2;max-height:none;padding:12px 12px 12px 0;min-height:0}
+}

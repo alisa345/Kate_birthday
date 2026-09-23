@@ -1,0 +1,54 @@
+/* The quiet epilogue shares the game's typography and palette. */
+#player-two-message{max-width:850px;margin:110px auto 0;padding-top:25px}
+.message-transmission{display:flex;flex-direction:column;align-items:flex-start;gap:9px;margin:0 0 26px;color:var(--muted);font-size:10px;letter-spacing:1.5px}
+.message-transmission>span:first-child{color:var(--pink)}
+.message-transmission i{display:block;width:100px;height:2px;background:var(--line)}
+.player-message{border:1px solid var(--line);background:var(--bg);padding:34px 42px}
+.player-message header{border-bottom:1px solid var(--line);padding-bottom:22px;margin-bottom:30px}
+.player-message header>span{color:var(--pink);font-size:11px;letter-spacing:2px}
+.player-message h2{font-size:11px;font-weight:normal;letter-spacing:1px;color:var(--muted);margin:9px 0 0}
+.player-message-text{font-size:16px;line-height:1.85;overflow-wrap:break-word}
+.player-message-text p{margin:0 0 22px}
+.player-message-text p:last-child{margin-bottom:0}
+.player-signature{color:var(--pink);font-size:12px;margin:30px 0 32px}
+.finale-continue{display:inline-block;padding:12px 0;font-size:12px;letter-spacing:1px;color:var(--pink)}
+.finale-continue:hover{color:var(--text);text-shadow:0 0 7px #cc8d9d55}
+#level-24{position:relative;isolation:isolate;overflow:hidden;min-height:calc(100svh - 80px);margin:70px 0 0;padding:100px 12px 120px;display:grid;place-items:center;text-align:center}
+.level-content{position:relative;z-index:1;max-width:100%}
+.level-up-label{font-size:10px;letter-spacing:3px;color:var(--muted);margin:0 0 30px}
+#finale-level-title{color:var(--pink);font-size:clamp(30px,5vw,55px);line-height:1.15;letter-spacing:5px;margin:0}
+.level-name{font-size:clamp(70px,12vw,138px);line-height:1.1;letter-spacing:6px;font-weight:bold;color:var(--text);margin:14px 0 24px}
+.level-year{font-size:clamp(10px,1.4vw,14px);letter-spacing:2px;margin:0}
+.level-heart{font-size:24px;color:var(--pink);margin:35px 0}
+.level-continues{font-size:clamp(9px,1.2vw,12px);letter-spacing:2px;color:var(--muted);margin:0}
+.level-pixels{position:absolute;inset:0;z-index:0;pointer-events:none;overflow:hidden}
+.level-pixel{position:absolute;left:var(--x);top:12%;width:var(--size);height:var(--size);background:var(--color);opacity:0;animation:level-pixel-fall 2.6s var(--delay) steps(28,end) both}
+@keyframes level-pixel-fall{0%{opacity:0;transform:translate(0,-20px)}10%{opacity:.8}80%{opacity:.6}100%{opacity:0;transform:translate(var(--drift),var(--fall)) rotate(180deg)}}
+@keyframes finale-receive{from{opacity:.3}to{opacity:1}}
+@keyframes finale-load{from{transform:scaleX(.05);background:var(--pink)}to{transform:scaleX(1);background:var(--line)}}
+@media(prefers-reduced-motion:no-preference){
+ .finale-message.is-received .message-transmission>span:first-child{animation:finale-receive .15s both}
+ .finale-message.is-received .message-transmission>span:nth-child(2){animation:finale-receive .15s .1s both}
+ .finale-message.is-received .message-transmission i{transform-origin:left;animation:finale-load .3s .15s both}
+ .finale-message.is-received .player-message{animation:finale-receive .3s .3s both}
+ .finale-level.is-received .level-content>*{animation:finale-receive .3s both}
+ .finale-level.is-received #finale-level-title{animation-delay:.1s}
+ .finale-level.is-received .level-name{animation-delay:.2s}
+ .finale-level.is-received .level-year{animation-delay:.3s}
+ .finale-level.is-received .level-heart{animation-delay:.4s}
+ .finale-level.is-received .level-continues{animation-delay:.5s}
+}
+@media(max-width:650px){
+ #player-two-message{margin-top:65px;padding-top:12px}
+ .message-transmission{font-size:9px;letter-spacing:1px}
+ .player-message{padding:24px 19px}
+ .player-message header{margin-bottom:24px;padding-bottom:18px}
+ .player-message h2{font-size:10px;letter-spacing:.5px}
+ .player-message-text{font-size:14px;line-height:1.85}
+ .player-signature{font-size:11px}
+ #level-24{min-height:calc(100svh - 100px);margin-top:45px;padding:85px 5px 105px}
+ .level-name{letter-spacing:3px}
+ .level-year,.level-continues{letter-spacing:1px}
+}
+/* This heading receives programmatic focus after Continue, but is not a control. */
+#finale-level-title:focus{outline:none}

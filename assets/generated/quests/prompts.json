@@ -1,0 +1,53 @@
+[
+  {
+    "file": "01-night-at-sbory",
+    "refs": [
+      "assets/character/dress/front.png",
+      "assets/generated/lore/main-story-begins.png"
+    ],
+    "prompt": "Katya in her canonical black sleeveless midi dress and boots leaving a modest BAR at night, holding one ordinary clear drinking tumbler triumphantly at chest height, a mischievous slight smile. Bar doorway behind her with a dim dusty pink light and vague low-poly stools inside; clearly a pub, not a festival or camping. Medium-wide 3/4 body composition. The plain glass is the main quest item and clearly readable. Her friend Alisa can stand slightly behind at the doorway, using exact short orange bob, black glasses and blue top from reference 2 RIGHT. No police, danger, fighting, broken glass on body, drunken collapse or extra story. Humorous restrained game cutscene. Format: landscape 1536x1024, aspect 3:2. A cutscene from the EXACT same 1998 PS1 game as provided canonical character renders: coarse angular polygon meshes, flat shaded facets, tiny low-resolution pixelated painted face and clothing textures, muted charcoal/dusty pink/grey palette, soft warm upper-left lighting. Preserve Katya's exact canonical facial proportions, long copper auburn angular hair with bangs, earrings, eyeliner, body proportions, tattoo design. Use reference photos only to understand real appearance, not as photographic textures. No modern smooth realistic render, anime, cartoon illustration, vector art, logos, UI, captions or invented dates. Faces and important objects safely inside central 80% of frame. Staged visualization of the specified story only, no added biographical events."
+  },
+  {
+    "file": "02-waiting-for-player-two",
+    "refs": [
+      "assets/generated/lore/main-story-begins.png",
+      "assets/character/casual/front.png",
+      "assets/katya/катя и алиса.jpg"
+    ],
+    "prompt": "A quiet warm reunion of Katya and Alisa after a period apart. Exact two women from reference 1: Katya LEFT is canonical long copper hair/bangs white tank/jeans, Alisa RIGHT short orange bob, black glasses, blue sleeveless top and tattoos. Photo 3 reinforces real identities: Katya left, Alisa right. Medium-wide scene of them facing each other beside a simple ordinary building entrance with a small travel bag at Alisa's feet, shy relaxed smiles, one hand resting warmly on friend's shoulder. Neither crying nor melodramatic. Plain unidentifiable contemporary urban courtyard, no airport labels, landmarks, countries, flags or dates. Everyday return and continuation of friendship. Format: landscape 1536x1024, aspect 3:2. A cutscene from the EXACT same 1998 PS1 game as provided canonical character renders: coarse angular polygon meshes, flat shaded facets, tiny low-resolution pixelated painted face and clothing textures, muted charcoal/dusty pink/grey palette, soft warm upper-left lighting. Preserve Katya's exact canonical facial proportions, long copper auburn angular hair with bangs, earrings, eyeliner, body proportions, tattoo design. Use reference photos only to understand real appearance, not as photographic textures. No modern smooth realistic render, anime, cartoon illustration, vector art, logos, UI, captions or invented dates. Faces and important objects safely inside central 80% of frame. Staged visualization of the specified story only, no added biographical events."
+  },
+  {
+    "file": "03-student-of-the-year",
+    "refs": [
+      "assets/generated/lore/main-story-begins.png",
+      "assets/character/default/front.png"
+    ],
+    "prompt": "Katya studying at a cluttered modest desk with an old beige CRT computer, papers and pen, her friend Alisa sitting beside her working through another stack of assignments. Katya uses exact canonical face/copper long hair and grey graphic layered shirt from reference 2, Alisa same short orange bob/black glasses/blue sleeveless top from reference 1 RIGHT. Both adult women, clear equal teamwork, mildly tired amused concentration. Framing medium-wide side-front view showing both faces and computer. Alisa is an RPG support companion only through composition, NOT magical: no glow, portal, spell, wings or fantasy elements. No readable assignment text, fake university or dates. Format: landscape 1536x1024, aspect 3:2. A cutscene from the EXACT same 1998 PS1 game as provided canonical character renders: coarse angular polygon meshes, flat shaded facets, tiny low-resolution pixelated painted face and clothing textures, muted charcoal/dusty pink/grey palette, soft warm upper-left lighting. Preserve Katya's exact canonical facial proportions, long copper auburn angular hair with bangs, earrings, eyeliner, body proportions, tattoo design. Use reference photos only to understand real appearance, not as photographic textures. No modern smooth realistic render, anime, cartoon illustration, vector art, logos, UI, captions or invented dates. Faces and important objects safely inside central 80% of frame. Staged visualization of the specified story only, no added biographical events."
+  },
+  {
+    "file": "04-leave-a-mark",
+    "refs": [],
+    "prompt": "One 1536x1024 landscape cutscene screenshot from a 1998 PlayStation 1 low-poly game. Camera behind and slightly to the left of a young adult female tattoo artist named Katya, at shoulder height, looking past her shoulder toward the work table. The character has long copper-auburn angular chunky polygon hair down to upper chest/back, bangs, pale skin, white ribbed wide-strap tank top, washed grey-green jeans, small dark pixel tattoos on arms and a dangling silver earring. The back and side of her head are seen; do not show her full face. She wears dark disposable gloves, holds a small polygonal tattoo pen above an adult client's forearm on a cushion; only the client's arm enters frame from the right. The task is a quiet creative tattoo work session. No blood, no injury. Warm modest studio with small desk lamp and paper sketches, no legible lettering. CRITICAL STYLE: authentic coarse triangulated character mesh, visibly angular polygon limbs and hair, flat shading, low resolution 64x64-style pixel texture mapping on skin and clothes, limited details. The artist should look like a vintage Tomb Raider-era supporting character, with normal human proportions. NOT a real photo, NOT high-poly modern render, NOT illustration/anime, no glossy plastic, no magical elements, no UI. Charcoal grey, warm beige and muted dusty pink color grading. Soft upper-left lighting. Full composition within image with 10% safe margins around head and hand/tool. Art for a retro RPG quest journal.",
+    "reference_attempt_failed": "Image-reference requests failed with network errors; final scene generated from a detailed written description of the inspected canonical model, viewed from behind.",
+    "inspected_visual_references": [
+      "assets/character/casual/front.png",
+      "assets/katya/катя обычный образ.jpg"
+    ]
+  },
+  {
+    "file": "05-kind-soul",
+    "refs": [
+      "assets/character/casual/front.png",
+      "assets/generated/cats/tosha.png"
+    ],
+    "prompt": "A gentle meaningful scene: canonical Katya crouches on a quiet ordinary pavement, putting a small bowl of food down for a tabby street cat. White ribbed tank, grey-green loose jeans, same copper hair/bangs and face as reference 1. Reference 2 is cat mesh/render style only, no claim this street cat is her named pet. Cat stands approaching food, natural proportions not cartoon cuteness. Katya's expression calm and kind. Medium-wide ground-level three-quarter camera, both hand/bowl and cat visible, simple low-poly wall, small grass tufts, soft warm light. Emotional climax through a small act of care, not tragedy: no injured animals or rescue spectacle. Render everyone and street with the same coarse PS1 engine. Format: landscape 1536x1024, aspect 3:2. A cutscene from the EXACT same 1998 PS1 game as provided canonical character renders: coarse angular polygon meshes, flat shaded facets, tiny low-resolution pixelated painted face and clothing textures, muted charcoal/dusty pink/grey palette, soft warm upper-left lighting. Preserve Katya's exact canonical facial proportions, long copper auburn angular hair with bangs, earrings, eyeliner, body proportions, tattoo design. Use reference photos only to understand real appearance, not as photographic textures. No modern smooth realistic render, anime, cartoon illustration, vector art, logos, UI, captions or invented dates. Faces and important objects safely inside central 80% of frame. Staged visualization of the specified story only, no added biographical events."
+  },
+  {
+    "file": "06-still-in-the-game",
+    "refs": [
+      "assets/character/default/back.png",
+      "assets/character/default/front.png"
+    ],
+    "prompt": "Cinematic quiet continuation-of-life game cutscene. Canonical Katya in grey layered graphic shirt, loose grey-green jeans and dark shoes walks away toward the next part of an ordinary urban pedestrian path. Camera slightly behind and to her side at waist height, three-quarter back view; recognizable copper polygonal long hair, slight cheek profile only. Character occupies left-center foreground, path leads gently into a softly lit next block of the same everyday world in right background. Neutral worn pavement, modest walls and trees. Restrained warm light in distance, muted grey/dusty pink overall. No fantasy, epic mountains, portals, tragedy, ruins, war or specific life event. The feeling is choosing to keep going. A polished wide game cutscene suitable as a future transition to next level. Format: landscape 1536x1024, aspect 3:2. A cutscene from the EXACT same 1998 PS1 game as provided canonical character renders: coarse angular polygon meshes, flat shaded facets, tiny low-resolution pixelated painted face and clothing textures, muted charcoal/dusty pink/grey palette, soft warm upper-left lighting. Preserve Katya's exact canonical facial proportions, long copper auburn angular hair with bangs, earrings, eyeliner, body proportions, tattoo design. Use reference photos only to understand real appearance, not as photographic textures. No modern smooth realistic render, anime, cartoon illustration, vector art, logos, UI, captions or invented dates. Faces and important objects safely inside central 80% of frame. Staged visualization of the specified story only, no added biographical events."
+  }
+]

@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="ru">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#101011"><meta name="description" content="Катя. Легендарная женщина. Уровень 24. Персональный birthday-квест."><title>КАТЯ.EXE — Level 24</title><link rel="stylesheet" href="style.css"><script src="script.js" defer></script><link rel="stylesheet" href="character.css"><script src="character.js" defer></script><link rel="stylesheet" href="visual-assets.css"><link rel="stylesheet" href="lore.css"><script src="lore.js" defer></script><link rel="stylesheet" href="quests.css"><script src="quests.js" defer></script><link rel="stylesheet" href="finale.css"><script src="finale.js" defer></script></head>
+<body>
+<header class="topbar"><a class="brand" href="#character">КАТЯ.EXE <span>♥</span></a><nav aria-label="Основные разделы"><a href="#character" class="active">01. ПЕРСОНАЖ</a><a href="#inventory">02. ИНВЕНТАРЬ</a><a href="#lore">03. ЛОР</a><a href="#achievements">04. АЧИВКИ</a><a href="#quest-log">05. КВЕСТЫ</a></nav><button id="sound" class="sound" aria-pressed="false" aria-label="Включить игровые звуки">♪ <span>ЗВУК: ВЫКЛ</span></button></header>
+<main>
+<section id="character" aria-labelledby="hero-title">
+<div class="hero frame">
+<div class="hero-art"><img src="assets/generated/character/hero-portrait.webp" alt="Катя — портрет игрового персонажа в стиле PS1" width="1024" height="1536" fetchpriority="high"><span class="photo-coordinates">PLAYER_01 / ORIGINAL CHARACTER</span></div>
+<div class="hero-copy"><div class="eyebrow"><span class="live-dot"></span> SPECIAL EVENT · 24.09.2026</div><p class="intro">Сегодня родилась<br><strong>лучшая девочка</strong><br>на планете</p><h1 id="hero-title" class="glitch">КАТЯ</h1><p class="hero-sub">Единственная в своём классе.<br>Легендарная в любой вселенной.</p><a href="#profile" class="start-button">▶ НАЧАТЬ ПРОСМОТР <span>[ ENTER ]</span></a></div>
+<div class="hero-note">24 года.<br>Бесконечно много любви.<span>♡</span></div><div class="hero-bottom"><span>SAVE FILE: KATYA_2002</span><span>◆ BIRTHDAY EDITION</span><span>VER. 24.0</span></div>
+</div>
+<div id="profile" class="section-heading"><h2><span>01.</span> ПЕРСОНАЖ <small>// CHARACTER</small></h2><span class="heading-meta">PLAYER STATUS: <b>LEGENDARY</b></span></div>
+<div class="profile frame reveal character-layout">
+<div class="character-viewer" role="group" aria-label="Просмотр персонажа и выбор одежды" tabindex="0">
+  <div class="viewer-heading"><span>◈ CHARACTER VIEWER</span><span>LVL <b>24</b></span></div>
+  <div class="viewer-stage" aria-busy="false">
+    <span class="viewer-corner">KATYA / PLAYER_01</span>
+    <span class="viewer-angle" aria-hidden="true">000°</span>
+    <img id="character-render" src="assets/character/default/front.png" width="1024" height="1536" alt="Low-poly персонаж Катя: DEFAULT, вид спереди" decoding="async">
+    <button type="button" class="view-arrow previous" aria-label="Повернуть персонажа влево на 180 градусов">←</button>
+    <button type="button" class="view-arrow next" aria-label="Повернуть персонажа вправо на 180 градусов">→</button>
+    <span class="turn-indicator" aria-hidden="true">↻ 180°</span>
+    <p class="viewer-error" hidden>Не удалось загрузить образ. Попробуй выбрать его ещё раз.</p>
+  </div>
+  <div class="view-readout"><span id="outfit-name">DEFAULT</span><div class="view-tabs" role="group" aria-label="Ракурс персонажа"><button type="button" data-view="front" aria-pressed="true">FRONT</button><span>/</span><button type="button" data-view="back" aria-pressed="false">BACK</button></div><span class="view-hint">← 180° →</span></div>
+  <div class="outfits-heading"><span>СКИНЫ <span>/ OUTFITS</span></span><span>03 / 04</span></div>
+  <div class="outfits" role="group" aria-label="Скины Кати">
+    <button type="button" class="outfit selected" data-outfit="default" aria-pressed="true" aria-label="DEFAULT — серый лонгслив и джинсы"><img src="assets/character/default/front.png" alt="" width="1024" height="1536"><span>DEFAULT</span><small>EQUIPPED</small></button>
+    <button type="button" class="outfit" data-outfit="dress" aria-pressed="false" aria-label="DRESS — чёрное платье и сапоги"><img src="assets/character/dress/front.png" alt="" width="1024" height="1536" loading="lazy"><span>DRESS</span><small>AVAILABLE</small></button>
+    <button type="button" class="outfit" data-outfit="casual" aria-pressed="false" aria-label="CASUAL — белая майка и джинсы"><img src="assets/character/casual/front.png" alt="" width="1024" height="1536" loading="lazy"><span>CASUAL</span><small>AVAILABLE</small></button>
+    <button type="button" class="outfit locked" disabled aria-label="Неизвестный скин — заблокирован"><span class="locked-art" aria-hidden="true"><svg viewBox="0 0 32 32"><path d="M9 14V9a7 7 0 0 1 14 0v5M6 14h20v16H6zM16 20v5"/></svg></span><span>???</span><small>LOCKED</small></button>
+  </div>
+  <p class="outfit-description" id="outfit-description">Серый лонгслив, свободные джинсы. Базовая комплектация легенды.</p>
+  <span id="viewer-announcement" class="visually-hidden" role="status" aria-live="polite" aria-atomic="true">DEFAULT. Вид спереди.</span>
+</div>
+<div class="character-info"><div class="character-name"><h3>КАТЯ</h3><span>★★★★★</span></div><dl><div><dt>ДАТА РОЖДЕНИЯ</dt><dd>24.09.2002</dd></div><div><dt>УРОВЕНЬ</dt><dd>24</dd></div><div><dt>КЛАСС</dt><dd>Легендарная женщина</dd></div></dl><div class="stats-title">ХАРАКТЕРИСТИКИ <span>BASE STATS</span></div><div id="stats" class="stats"></div><p class="character-quote">«Не нормис, а легенда»<span>— описание персонажа</span></p></div>
+<aside class="companions">
+  <div class="panel-label">ПОСТОЯННЫЙ БАФ <span>/ PERMANENT BUFF</span></div>
+  <div class="companion-sprites">
+    <figure><img src="assets/generated/cats/filya.webp" alt="Филя — пушистый полосатый кот со сложенными ушами, игровой спрайт" width="1024" height="1024" loading="lazy" decoding="async"><figcaption>ФИЛЯ</figcaption></figure>
+    <figure><img src="assets/generated/cats/tosha.webp" alt="Тоша — короткошёрстный полосатый кот с прямыми ушами, игровой спрайт" width="1024" height="1024" loading="lazy" decoding="async"><figcaption>ТОША</figcaption></figure>
+  </div>
+  <h4>МАТЬ ВСЕЯ ЖИВОГО</h4>
+  <div class="companion-status"><span class="live-dot"></span> В ВАШЕЙ КОМАНДЕ</div>
+  <div class="buff">+167% <span>любовь к котам</span></div>
+  <p class="handwritten">Вместе проходить<br>эту игру лучше ♡</p>
+</aside></div>
+</section>
+<section id="inventory" class="reveal"><div class="section-heading"><h2><span>02.</span> ИНВЕНТАРЬ <small>// INVENTORY</small></h2><span class="heading-meta">8 / 8 СЛОТОВ</span></div><div class="inventory-top"><span>ВСЁ САМОЕ НЕОБХОДИМОЕ</span><span>↓ ВЫБЕРИ ПРЕДМЕТ ДЛЯ ОСМОТРА</span></div><div id="inventory-grid" class="inventory-grid" aria-label="Предметы инвентаря"></div><div id="item-description" class="item-description frame" role="status" aria-live="polite"></div></section>
+<section id="lore" class="reveal"><div class="section-heading"><h2><span>03.</span> ЛОР <small>// LORE</small></h2><span class="heading-meta">MAIN STORY</span></div><div class="lore-intro"><span>У каждой легенды есть начало.</span><span>CHAPTER 01 — ∞</span></div><div class="timeline"><article class="story"><time>24.09.2002</time><div class="story-visual birth"><img src="assets/generated/lore/character-created.webp" alt="Игровая катсцена: маленькая Катя в кроватке" width="1536" height="1024" loading="lazy" decoding="async"><span class="visual-label">NEW PLAYER CONNECTED</span></div><h3>CHARACTER CREATED</h3><p>В мире появилась Катя.<br>Баланс игры был нарушен.</p><span class="story-code">EVENT_001 / ORIGIN</span></article><article class="story"><time>2002–2021</time><div class="story-visual lost"><img src="assets/generated/lore/lost-years.webp" alt="Детская Катя в зелёной кофте и узорчатом сарафане — low-poly сцена по фотографии" width="1536" height="1024" loading="lazy" decoding="async"><span class="visual-label">ARCHIVE NOT FOUND</span></div><h3>THE LOST YEARS</h3><p>Сюжетные материалы частично утеряны.</p><span class="story-code">EVENT_002 / CLASSIFIED</span></article><article class="story"><time>2022</time><div class="story-visual"><img src="assets/generated/lore/main-story-begins.webp" alt="Катя и Алиса вместе — катсцена начала лучшей дружбы" width="1536" height="1024" loading="lazy" decoding="async"><span class="visual-label">CO-OP MODE ACTIVATED</span></div><h3>MAIN STORY BEGINS</h3><p>Катя и Алиса встречаются.<br>Открыта сюжетная линия «Лучшая дружба».</p><span class="story-code">EVENT_003 / BEST FRIENDS</span></article><article class="story final-story"><time>24.09.2026</time><div class="story-visual birthday"><img src="assets/generated/lore/level-24-unlocked.webp" alt="Катя с праздничным тортом и свечами 24 — игровая катсцена" width="1536" height="1024" loading="lazy" decoding="async"><span class="visual-label">HAPPY BIRTHDAY, PLAYER 01</span></div><h3>LEVEL 24 UNLOCKED</h3><p>Продолжение следует...</p><span class="story-code">EVENT_024 / CONTINUE…</span></article></div></section>
+<section id="achievements" class="reveal"><div class="section-heading"><h2><span>04.</span> АЧИВКИ <small>// ACHIEVEMENTS</small></h2><span class="heading-meta"><b>7 / 7</b> РАЗБЛОКИРОВАНО</span></div><div class="achievement-progress"><span>ЭТО НЕ ПРОСТО ДОСТИЖЕНИЯ. ЭТО ТЫ.</span><span>COMPLETION <b>100%</b></span></div><div id="achievement-list" class="achievement-list"></div><div class="end-line"><span>ALL ACHIEVEMENTS UNLOCKED</span><span>♥</span><span>CONTINUE BEING YOU.</span></div></section>
+
+<section id="quest-log" aria-labelledby="quest-log-title">
+ <div class="section-heading"><h2 id="quest-log-title"><span>05.</span> QUEST LOG <small>// JOURNAL</small></h2><span class="heading-meta">5 COMPLETED <b>· 1 ACTIVE</b></span></div>
+ <div class="quest-log-intro"><div><p class="quest-overline">PLAYER_01 / KATYA</p><h3>COMPLETED QUESTS</h3></div><p>Журнал прохождения<br><span>ЗАПИСИ 01—06</span></p></div>
+ <div class="quest-records">
+<article id="quest-sbory" class="quest-entry" aria-labelledby="quest-title-01">
+  <header class="quest-entry-header"><span class="quest-index">01<span> / 06</span></span><span class="quest-type">SIDE QUEST</span><span class="quest-status"><span aria-hidden="true">✓</span> STATUS: COMPLETED</span></header>
+  <div class="quest-entry-body">
+   <figure class="quest-figure"><div class="quest-scene"><img src="assets/generated/quests/01-night-at-sbory.webp" alt="Катя выходит из бара с добытым стаканом; Алиса у входа" width="1536" height="1024" loading="lazy" decoding="async"><button class="quest-cutscene-trigger" type="button" aria-label="Открыть катсцену: НОЧЬ В «СБОРАХ»" aria-haspopup="dialog" aria-controls="lore-memory"><span>[ OPEN CUTSCENE ]</span></button></div><figcaption><span>CUTSCENE_01</span><span>MEMORY SAVED <b>◆</b></span></figcaption></figure>
+   <div class="quest-info"><h3 id="quest-title-01" class="quest-title">НОЧЬ В «СБОРАХ»</h3><p class="quest-description">Пережить посещение «Сборов» и успешно покинуть локацию.</p><div class="quest-objectives"><h4>OBJECTIVES</h4><ul><li class="objective-done" style="--objective-order:0"><span class="objective-mark" aria-label="Выполнено">✓</span><span>Послушать Алису и не оказаться непонятно у каких челов</span></li><li class="objective-done" style="--objective-order:1"><span class="objective-mark" aria-label="Выполнено">✓</span><span>Спиздить стакан</span></li><li class="objective-failed" style="--objective-order:2"><span class="objective-mark" aria-label="Не выполнено">✗</span><span>Донести стакан до дома</span></li></ul></div><div class="quest-effects">
+ <div class="quest-effect reward"><span class="effect-label">REWARD / ITEM</span><strong>+1 УКРАДЕННЫЙ СТАКАН</strong><span class="destroyed"><span aria-hidden="true">×</span> ITEM STATUS: DESTROYED</span></div>
+ <div class="quest-effect debuff"><span class="effect-label">DEBUFF / ПОХМЕЛЬЕ</span><strong>−50 HP</strong><span>Duration: следующий день</span></div></div></div>
+  </div>
+ </article>
+<article id="quest-waiting" class="quest-entry" aria-labelledby="quest-title-02">
+  <header class="quest-entry-header"><span class="quest-index">02<span> / 06</span></span><span class="quest-type">MAIN QUEST</span><span class="quest-status"><span aria-hidden="true">✓</span> STATUS: COMPLETED</span></header>
+  <div class="quest-entry-body">
+   <figure class="quest-figure"><div class="quest-scene"><img src="assets/generated/quests/02-waiting-for-player-two.webp" alt="Катя и Алиса встречаются у входа во двор после возвращения подруги" width="1536" height="1024" loading="lazy" decoding="async"><button class="quest-cutscene-trigger" type="button" aria-label="Открыть катсцену: ЖДУЛЯ" aria-haspopup="dialog" aria-controls="lore-memory"><span>[ OPEN CUTSCENE ]</span></button></div><figcaption><span>CUTSCENE_02</span><span>MEMORY SAVED <b>◆</b></span></figcaption></figure>
+   <div class="quest-info"><h3 id="quest-title-02" class="quest-title">ЖДУЛЯ</h3><p class="quest-description">Дождаться возвращения подруги в Россию.</p><div class="quest-objectives"><h4>OBJECTIVES</h4><ul><li class="objective-done" style="--objective-order:0"><span class="objective-mark" aria-label="Выполнено">✓</span><span>Не забыть Алису</span></li><li class="objective-done" style="--objective-order:1"><span class="objective-mark" aria-label="Выполнено">✓</span><span>Дождаться</span></li><li class="objective-done" style="--objective-order:2"><span class="objective-mark" aria-label="Выполнено">✓</span><span>Продолжить сюжетную линию после возвращения</span></li></ul></div><div class="quest-effect reward"><span class="effect-label">REWARD / STORY CONTINUED</span><strong>СЮЖЕТНАЯ ЛИНИЯ «ЛУЧШАЯ ДРУЖБА» ПРОДОЛЖЕНА</strong></div>
+ <aside class="quest-note"><span>NOTE FROM PLAYER 2</span><p>Спасибо, что тогда не забыла обо мне, даже несмотря на то, что я сама почти выпала из коммуникации. И прости меня за это. Я очень рада, что после моего возвращения наша история продолжилась. ❤️</p></aside></div>
+  </div>
+ </article>
+<article id="quest-student" class="quest-entry" aria-labelledby="quest-title-03">
+  <header class="quest-entry-header"><span class="quest-index">03<span> / 06</span></span><span class="quest-type">REPEATABLE QUEST</span><span class="quest-status"><span aria-hidden="true">✓</span> STATUS: COMPLETED × MULTIPLE</span></header>
+  <div class="quest-entry-body">
+   <figure class="quest-figure"><div class="quest-scene"><img src="assets/generated/quests/03-student-of-the-year.webp" alt="Катя за компьютером и Алиса рядом выполняют учебные задания" width="1536" height="1024" loading="lazy" decoding="async"><button class="quest-cutscene-trigger" type="button" aria-label="Открыть катсцену: СТУДЕНТ ГОДА" aria-haspopup="dialog" aria-controls="lore-memory"><span>[ OPEN CUTSCENE ]</span></button></div><figcaption><span>CUTSCENE_03</span><span>MEMORY SAVED <b>◆</b></span></figcaption></figure>
+   <div class="quest-info"><h3 id="quest-title-03" class="quest-title">СТУДЕНТ ГОДА</h3><p class="quest-description">Успешно закрыть очередную сессию любыми доступными средствами.</p><div class="quest-objectives"><h4>OBJECTIVES</h4><ul><li class="objective-done" style="--objective-order:0"><span class="objective-mark" aria-label="Выполнено">✓</span><span>Сделать задания</span></li><li class="objective-done" style="--objective-order:1"><span class="objective-mark" aria-label="Выполнено">✓</span><span>Закрыть сессию</span></li><li class="objective-done" style="--objective-order:2"><span class="objective-mark" aria-label="Выполнено">✓</span><span>Пережить последствия</span></li></ul></div><div class="quest-effect legendary"><span class="effect-label">LEGENDARY SUPPORT SKILL</span><strong>ПРИЗВАТЬ АЛИСУ</strong><p>Призывает союзника, который начинает делать половину твоих заданий вместо тебя.</p><span class="skill-cooldown">COOLDOWN: 1 СЕМЕСТР</span></div>
+ <div class="quest-contribution"><span class="effect-label">PARTY CONTRIBUTION</span><div><span>КАТЯ</span><span class="contribution-track" role="img" aria-label="Вклад Кати: 50%"><i></i></span><b>50%</b></div><div><span>АЛИСА</span><span class="contribution-track" role="img" aria-label="Вклад Алисы: 50%"><i></i></span><b>50%</b></div><p>* Статистика приблизительная и может быть оспорена владельцем аккаунта.</p></div></div>
+  </div>
+ </article>
+<article id="quest-legacy" class="quest-entry" aria-labelledby="quest-title-04">
+  <header class="quest-entry-header"><span class="quest-index">04<span> / 06</span></span><span class="quest-type">LEGACY QUEST</span><span class="quest-status"><span aria-hidden="true">✓</span> STATUS: COMPLETED</span></header>
+  <div class="quest-entry-body">
+   <figure class="quest-figure"><div class="quest-scene"><img src="assets/generated/quests/04-leave-a-mark.webp" alt="Катя сосредоточенно работает тату-машинкой в тёплой творческой мастерской" width="1536" height="1024" loading="lazy" decoding="async"><button class="quest-cutscene-trigger" type="button" aria-label="Открыть катсцену: ОСТАВИТЬ СЛЕД" aria-haspopup="dialog" aria-controls="lore-memory"><span>[ OPEN CUTSCENE ]</span></button></div><figcaption><span>CUTSCENE_04</span><span>MEMORY SAVED <b>◆</b></span></figcaption></figure>
+   <div class="quest-info"><h3 id="quest-title-04" class="quest-title">ОСТАВИТЬ СЛЕД</h3><p class="quest-description">Оставить частичку себя в этом мире.</p><div class="quest-objectives"><h4>OBJECTIVES</h4><ul><li class="objective-done" style="--objective-order:0"><span class="objective-mark" aria-label="Выполнено">✓</span><span>Освоить татуировку</span></li><li class="objective-done" style="--objective-order:1"><span class="objective-mark" aria-label="Выполнено">✓</span><span>Набить татуировку другому человеку</span></li><li class="objective-done" style="--objective-order:2"><span class="objective-mark" aria-label="Выполнено">✓</span><span>Повторить</span></li></ul></div><div class="quest-effect legacy"><span class="effect-label">LONG-TERM EFFECT</span><p class="legacy-message">Теперь частички твоего творчества буквально путешествуют по миру на других людях.</p></div><p class="quest-afterthought">Некоторые вещи, которые мы создаём, остаются после момента, в котором были созданы.</p></div>
+  </div>
+ </article>
+<article id="quest-kindness" class="quest-entry quest-kindness" aria-labelledby="quest-title-05">
+  <header class="quest-entry-header"><span class="quest-index">05<span> / 06</span></span><span class="quest-type">WORLD EVENT</span><span class="quest-status"><span aria-hidden="true">✓</span> STATUS: COMPLETED MANY TIMES</span></header>
+  <div class="quest-entry-body">
+   <figure class="quest-figure"><div class="quest-scene"><img src="assets/generated/quests/05-kind-soul.webp" alt="Катя ставит миску с едой перед уличным котом" width="1536" height="1024" loading="lazy" decoding="async"><button class="quest-cutscene-trigger" type="button" aria-label="Открыть катсцену: ДОБРАЯ ДУША" aria-haspopup="dialog" aria-controls="lore-memory"><span>[ OPEN CUTSCENE ]</span></button></div><figcaption><span>CUTSCENE_05</span><span>MEMORY SAVED <b>◆</b></span></figcaption></figure>
+   <div class="quest-info"><h3 id="quest-title-05" class="quest-title">ДОБРАЯ ДУША</h3><p class="quest-description">Не пройти мимо того, кому нужна помощь.</p><div class="quest-objectives"><h4>OBJECTIVES</h4><ul><li class="objective-done" style="--objective-order:0"><span class="objective-mark" aria-label="Выполнено">✓</span><span>Помогать животным на улице</span></li><li class="objective-done" style="--objective-order:1"><span class="objective-mark" aria-label="Выполнено">✓</span><span>Кормить</span></li><li class="objective-done" style="--objective-order:2"><span class="objective-mark" aria-label="Выполнено">✓</span><span>Заботиться</span></li><li class="objective-done" style="--objective-order:3"><span class="objective-mark" aria-label="Выполнено">✓</span><span>Спасать</span></li></ul></div><div class="quest-effect reward"><span class="effect-label">REWARD</span><strong>+100 К КАРМЕ</strong></div>
+ <a href="#character-permanent-buff" class="quest-effect passive"><span class="effect-label">PASSIVE EFFECT UNLOCKED</span><div class="quest-buff-link"><span class="quest-buff-portraits" aria-hidden="true"><img src="assets/generated/cats/filya.webp" alt="" width="1254" height="1254" loading="lazy"><img src="assets/generated/cats/tosha.webp" alt="" width="1254" height="1254" loading="lazy"></span><span><strong>МАТЬ ВСЕЯ ЖИВОГО</strong><small>ПОСТОЯННЫЙ БАФ / CHARACTER ↗</small></span></div></a></div>
+  </div>
+ </article>
+<article id="quest-still-playing" class="quest-entry quest-active" aria-labelledby="quest-title-06">
+  <header class="quest-entry-header"><span class="quest-index">06<span> / 06</span></span><span class="quest-type">MAIN QUEST</span><span class="quest-status"><i aria-hidden="true"></i> STATUS: ACTIVE</span></header>
+  <div class="quest-entry-body">
+   <figure class="quest-figure"><div class="quest-scene"><img src="assets/generated/quests/06-still-in-the-game.webp" alt="Катя идёт вперёд по тихой игровой улице к следующему участку пути" width="1536" height="1024" loading="lazy" decoding="async"><button class="quest-cutscene-trigger" type="button" aria-label="Открыть катсцену: ВСЁ ЕЩЁ В ИГРЕ" aria-haspopup="dialog" aria-controls="lore-memory"><span>[ OPEN CUTSCENE ]</span></button></div><figcaption><span>CUTSCENE_06</span><span>IN PROGRESS <b>◆</b></span></figcaption></figure>
+   <div class="quest-info"><h3 id="quest-title-06" class="quest-title">ВСЁ ЕЩЁ В ИГРЕ</h3><p class="quest-description">Вы пережили весь пиздец, который игра успела в вас кинуть.</p><div class="quest-objectives"><h4>OBJECTIVES</h4><ul><li class="objective-done" style="--objective-order:0"><span class="objective-mark" aria-label="Выполнено">✓</span><span>Пережить плохие времена</span></li><li class="objective-done" style="--objective-order:1"><span class="objective-mark" aria-label="Выполнено">✓</span><span>Подняться после них</span></li><li class="objective-done" style="--objective-order:2"><span class="objective-mark" aria-label="Выполнено">✓</span><span>Продолжить прохождение</span></li></ul></div><div class="quest-effect current-objective"><span class="effect-label">CURRENT OBJECTIVE:</span><strong>ПРОДОЛЖАТЬ.</strong></div><div class="quest-effect reward"><span class="effect-label">REWARD</span><strong>LEVEL 24 UNLOCKED</strong></div><p class="quest-encouragement">Что бы там ни было дальше — пожалуйста, продолжай в том же духе.</p></div>
+  </div>
+ </article>
+</div>
+</section>
+<section id="player-two-message" class="finale-message" aria-labelledby="player-two-title">
+ <div class="message-transmission" aria-hidden="true"><span>INCOMING MESSAGE...</span><span>SOURCE: PLAYER 2</span><i></i></div>
+ <article class="player-message">
+  <header><span>PLAYER 2</span><h2 id="player-two-title">MESSAGE FROM PLAYER 2</h2></header>
+  <div class="player-message-text">
+   <p>А если серьёзно, Катя, то с днём рождения!</p>
+   <p>Я очень рада, что наши игровые мирки когда-то пересеклись, и я невероятно тебя люблю.</p>
+   <p>Я хочу и желаю тебе, чтобы у тебя просто всё было хорошо. Чтобы прокачка на новом уровне не доставляла слишком много дискомфорта, всё складывалось так, как хочется именно тебе, квесты не были слишком сложными, а дебаффы если и накладывались, то хотя бы быстро снимались.</p>
+   <p>Ты самый крутой игрок из всех, кого я встречала, и я очень рада проходить хотя бы часть этой игры вместе с тобой.</p>
+   <p>Спасибо тебе за все эти годы, за то, что ты есть в моей жизни, за все наши разговоры, приколы и весь тот пиздец, который мы успели вместе пережить.</p>
+   <p>Я надеюсь, впереди у нас ещё дохуя совместных квестов.</p>
+   <p>Люблю тебя. С днём рождения ❤️</p>
+  </div>
+  <p class="player-signature">— PLAYER 2 / АЛИСА</p>
+  <a class="finale-continue" href="#level-24">[ ПРОДОЛЖИТЬ ]</a>
+ </article>
+</section>
+<section id="level-24" class="finale-level" aria-labelledby="finale-level-title">
+ <div class="level-content">
+  <p class="level-up-label">LEVEL UP!</p>
+  <h2 id="finale-level-title">LEVEL 24</h2>
+  <p class="level-name">КАТЯ</p>
+  <p class="level-year">NEW GAME YEAR STARTED</p>
+  <p class="level-heart" aria-label="Любовь">♥</p>
+  <p class="level-continues">MAIN STORY CONTINUES...</p>
+ </div>
+</section>
+</main>
+</body></html>

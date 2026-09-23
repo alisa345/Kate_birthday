@@ -1,0 +1,109 @@
+[
+  {
+    "file": "cats/tosha.png",
+    "refs": [
+      "assets/character/default/front.png",
+      "assets/cats/Тоша.jpg"
+    ],
+    "prompt": "A single full-body reclining cat sprite from the same 1998 PS1 low-poly game as image 1 (render style reference). Image 2 is the exact real cat Tosha: short fur brown-grey black striped tabby, large upright triangular ears, aqua green almond eyes, white chin, narrow face, brown pink nose. Preserve these distinctions. Three-quarter view facing camera, paws visible, complete body and tail tucked, centered fills 80% of square 1024x1024. Flat charcoal #151416 background, soft upper-left light, subtle contact shadow. Angular polygon mesh, deliberately pixelated low resolution texture maps, no strand fur, no photorealism, no anime, no cartoon illustration, no text."
+  },
+  {
+    "file": "cats/filya.png",
+    "refs": [
+      "assets/character/default/front.png",
+      "assets/cats/Филя.jpg"
+    ],
+    "prompt": "A single full-body reclining cat sprite from the same 1998 PS1 low-poly game as image 1 (render style reference). Image 2 is the exact real cat Filya: long fluffy brown-grey black striped tabby, small folded down ears (NOT upright), broad round face, green eyes, white chin and light fluffy neck ruff, brown pink nose. Preserve these distinctions. Three-quarter view facing camera, paws visible, complete body and tail tucked, centered fills 80% of square 1024x1024. Flat charcoal #151416 background, soft upper-left light, subtle contact shadow. Angular polygon mesh and chunky polygon clumps of fur, deliberately pixelated low resolution texture maps, no strand fur, no photorealism, no anime, no cartoon illustration, no text."
+  },
+  {
+    "file": "lore/lost-years.png",
+    "refs": [
+      "assets/character/default/front.png",
+      "assets/katya/катя ребенок.jpg"
+    ],
+    "prompt": "Create one landscape 1536x1024 in-game cutscene from an authentic 1998 PS1 game. Image 1 is adult Katya canonical game model: match its coarse flat polygon geometry and pixelated painted textures. Image 2 is actual childhood Katya, translate her into a child model of this same game, not a photo with filter. Fair toddler, light reddish brown hair with tiny upright ponytail and pink tie, green button cardigan, blue and white geometrical patterned pinafore. Correct toddler face and body, no adult proportions. She stands in the old apartment from photo with blue patterned wallpaper and dark wood CRT cabinet. No other people. Medium full-body frontal camera, child centered, head inside central 70% safe crop. Muted soft upper-left lighting, entire environment made of coarse polygon meshes. No photorealism, modern render, anime, illustration, UI, lettering."
+  },
+  {
+    "file": "lore/main-story-begins.png",
+    "refs": [
+      "assets/character/casual/front.png",
+      "assets/katya/kate and alisa.jpg",
+      "assets/katya/катя и алиса.jpg"
+    ],
+    "prompt": "Create one landscape 1536x1024 in-game friendship cutscene in the exact 1998 PS1 low-poly engine of reference 1. TWO women waist up, Katya LEFT and Alisa RIGHT, seated together in simple low-poly indoor conservatory with subdued tropical foliage. Reference 1 is canonical Katya: keep the identical game face, copper long hair with bangs, white ribbed tank top, necklace, pixel tattoos and proportions. Do not generate a different girl. Photo reference 2 shows Katya LEFT and Alisa RIGHT. ALISA on RIGHT has orange short bob and short fringe, black framed glasses, fuller round face, septum and lip piercings, blue sleeveless top, dark chest/arm tattoos. Reference 3 confirms Alisa RIGHT with glasses. Recreate Alisa as a mesh in the SAME game style as Katya, no caps, not a generic extra girl. Relaxed close friendship pose looking slightly toward one another. Both heads safe inside central 70% of composition. Coarse angular polygons, flat shading, tiny low-resolution textures on faces and clothes, muted warm upper-left lighting. No photography, modern realistic render, cartoon, anime, vector, text or UI."
+  },
+  {
+    "file": "achievements/manager.png",
+    "refs": [
+      "assets/character/default/front.png"
+    ],
+    "prompt": "Create ONE square 1024x1024 inventory-style achievement item render for the same 1998 PS1 game as the reference character. A standalone object, centered at 70% of canvas, uniform dark charcoal #151416 background, soft upper-left lighting, subtle contact shadow. Coarse angular low-poly 3D geometry, visibly pixelated tiny texture maps, limited muted grey, beige, dusty pink palette matching old RPG inventory icons. Three-quarter slightly elevated camera, no outline, no modern glossy rendering, no photorealism, no cartoon/anime, no SVG/flat pictogram, no border, no UI, no text or logos. A scuffed dark leather office briefcase with brass clasps and a small dusty pink ID badge hanging from the handle; the badge contains only tiny abstract pixel lines."
+  },
+  {
+    "file": "achievements/doctor.png",
+    "refs": [
+      "assets/character/default/front.png"
+    ],
+    "prompt": "Create ONE square 1024x1024 inventory-style achievement item render for the same 1998 PS1 game as the reference character. A standalone object, centered at 70% of canvas, uniform dark charcoal #151416 background, soft upper-left lighting, subtle contact shadow. Coarse angular low-poly 3D geometry, visibly pixelated tiny texture maps, limited muted grey, beige, dusty pink palette matching old RPG inventory icons. Three-quarter slightly elevated camera, no outline, no modern glossy rendering, no photorealism, no cartoon/anime, no SVG/flat pictogram, no border, no UI, no text or logos. A single bundled medical kit composition: a dull silver and muted burgundy stethoscope loosely coiled around a small beige medicine carton with one tablet blister. Readable silhouette at 64 pixels."
+  },
+  {
+    "file": "achievements/caretaker.png",
+    "refs": [
+      "assets/generated/achievements/manager.png"
+    ],
+    "prompt": "Create ONE square 1024x1024 inventory-style achievement item render for the same 1998 PS1 game as the reference character. A standalone object, centered at 70% of canvas, uniform dark charcoal #151416 background, soft upper-left lighting, subtle contact shadow. Coarse angular low-poly 3D geometry, visibly pixelated tiny texture maps, limited muted grey, beige, dusty pink palette matching old RPG inventory icons. Three-quarter slightly elevated camera, no outline, no modern glossy rendering, no photorealism, no cartoon/anime, no SVG/flat pictogram, no border, no UI, no text or logos. A small pet care artifact: a chunky worn dusty pink feeding bowl with three simple paw-shaped indentations, a dark collar looped around its base and a small brass tag. Low-poly item not a drawn paw symbol. The reference image is the canonical ITEM style (not a character); preserve its exact dark background, pixel texture density and matte material rendering, replacing the briefcase with the requested object."
+  },
+  {
+    "file": "achievements/comedian.png",
+    "refs": [
+      "assets/generated/achievements/manager.png"
+    ],
+    "prompt": "Create ONE square 1024x1024 inventory-style achievement item render for the same 1998 PS1 game as the reference character. A standalone object, centered at 70% of canvas, uniform dark charcoal #151416 background, soft upper-left lighting, subtle contact shadow. Coarse angular low-poly 3D geometry, visibly pixelated tiny texture maps, limited muted grey, beige, dusty pink palette matching old RPG inventory icons. Three-quarter slightly elevated camera, no outline, no modern glossy rendering, no photorealism, no cartoon/anime, no SVG/flat pictogram, no border, no UI, no text or logos. A vintage wired stand-up microphone, diagonally placed, dull silver polygonal mesh head and dark charcoal handle; short coiled cable. The microphone is the dominant recognizable object. The reference image is the canonical ITEM style (not a character); preserve its exact dark background, pixel texture density and matte material rendering, replacing the briefcase with the requested object."
+  },
+  {
+    "file": "achievements/terminal.png",
+    "refs": [
+      "assets/generated/achievements/manager.png"
+    ],
+    "prompt": "Create ONE square 1024x1024 inventory-style achievement item render for the same 1998 PS1 game as the reference character. A standalone object, centered at 70% of canvas, uniform dark charcoal #151416 background, soft upper-left lighting, subtle contact shadow. Coarse angular low-poly 3D geometry, visibly pixelated tiny texture maps, limited muted grey, beige, dusty pink palette matching old RPG inventory icons. Three-quarter slightly elevated camera, no outline, no modern glossy rendering, no photorealism, no cartoon/anime, no SVG/flat pictogram, no border, no UI, no text or logos. A small old beige CRT computer terminal with chunky keyboard, its screen showing two abstract muted green and dusty pink chat bubbles made of pixel blocks. No readable words, no logos. Clearly a computer object. The reference image is the canonical ITEM style (not a character); preserve its exact dark background, pixel texture density and matte material rendering, replacing the briefcase with the requested object."
+  },
+  {
+    "file": "achievements/wisdom.png",
+    "refs": [
+      "assets/generated/achievements/manager.png"
+    ],
+    "prompt": "Create ONE square 1024x1024 inventory-style achievement item render for the same 1998 PS1 game as the reference character. A standalone object, centered at 70% of canvas, uniform dark charcoal #151416 background, soft upper-left lighting, subtle contact shadow. Coarse angular low-poly 3D geometry, visibly pixelated tiny texture maps, limited muted grey, beige, dusty pink palette matching old RPG inventory icons. Three-quarter slightly elevated camera, no outline, no modern glossy rendering, no photorealism, no cartoon/anime, no SVG/flat pictogram, no border, no UI, no text or logos. An ancient closed thick book with desaturated olive-brown leather cover, tarnished brass corners and clasp, a dusty pink cloth bookmark hanging out. Angular worn pages, wisdom artifact, no text. The reference is the canonical ITEM style: preserve its exact background, pixel texture density and matte shading, replacing the briefcase with the requested object."
+  },
+  {
+    "file": "achievements/best-friend.png",
+    "refs": [
+      "assets/generated/achievements/manager.png"
+    ],
+    "prompt": "Create ONE square 1024x1024 inventory-style achievement item render for the same 1998 PS1 game as the reference character. A standalone object, centered at 70% of canvas, uniform dark charcoal #151416 background, soft upper-left lighting, subtle contact shadow. Coarse angular low-poly 3D geometry, visibly pixelated tiny texture maps, limited muted grey, beige, dusty pink palette matching old RPG inventory icons. Three-quarter slightly elevated camera, no outline, no modern glossy rendering, no photorealism, no cartoon/anime, no SVG/flat pictogram, no border, no UI, no text or logos. A unique legendary friendship relic: large faceted dusty rose heart-shaped gemstone held in a small antique brass cradle, with two tiny matching crystal fragments beside it. Richer dusty pink and muted gold than common items, restrained warm halo close to gem only. No bright neon or jewelry photography. The reference is the canonical ITEM style: preserve its exact background, pixel texture density and matte shading, replacing the briefcase with the requested object."
+  },
+  {
+    "file": "character/hero-portrait.png",
+    "refs": [
+      "assets/character/default/front.png",
+      "assets/katya/kate.png"
+    ],
+    "prompt": "Generate a portrait 1024x1536 game character close-up based on the EXACT canonical Katya low-poly model in image 1. Image 2 is original real face supporting reference only, never photographic output. Same facial mesh, copper auburn angular long hair with bangs, eyeliner, muted pink lips, dangling earrings. Chest-up three-quarter slight turn toward left, relaxed confident face, same grey layered graphic shirt. Head centered with generous margins, full hair top visible. Plain charcoal #151416 dark menu background. Authentic 1998 PS1 render: coarse visibly angular flat-shaded polygons, tiny pixelated face/hair/clothing textures, soft upper-left light. This must look like the very same game character zoomed in, not a new girl or modern rendered person. No text, props or UI."
+  },
+  {
+    "file": "lore/character-created.png",
+    "refs": [
+      "assets/character/default/front.png",
+      "assets/katya/катя ребенок.jpg"
+    ],
+    "prompt": "Generate 1536x1024 landscape PS1 story cutscene of baby Katya. Image 1 is canonical adult Katya for family resemblance and engine style. Image 2 is the actual childhood photo for earlier age appearance, NOT a newborn photo. Age-regress conservatively: a tiny fair-skinned infant with sparse light auburn hair and soft infant facial proportions, safely lying on its back wrapped in pale dusty pink blanket inside a simple polygonal wooden crib. Baby is awake, calm, no adults, no medical equipment. Medium-wide elevated three-quarter camera, infant focal point centered in central 70% and occupies about half frame, crib visible around it. Dark muted blue-grey nursery backdrop, warm upper-left light. Clearly model the infant and blanket with intentionally coarse 1998 game polygons and pixel textures, no photographic baby, no plastic modern cartoon. Authentic late-1990s PS1 game engine asset matching the provided canonical Katya render: visibly angular low-polygon geometry, flat-shaded polygon facets, low-resolution pixelated painted textures, muted colors, fixed soft upper-left lighting. NOT a photograph with filter, NOT modern realistic 3D, NOT anime, NOT vector illustration. No text, UI, watermark, borders or logos."
+  },
+  {
+    "file": "lore/level-24-unlocked.png",
+    "refs": [
+      "assets/character/dress/front.png",
+      "assets/katya/kate.png",
+      "assets/katya/kate3.png"
+    ],
+    "prompt": "Generate 1536x1024 landscape birthday cutscene in the EXACT game engine of image 1. Image 1 is canonical adult Katya in DRESS skin; preserve same facial features, copper auburn long hair with bangs, earrings, proportions, polygon structure, black sleeveless high-neck dress and pixelated tattoo. Images 2/3 are identity/outfit supporting photos only. Katya seated behind a small low-poly birthday cake on a table, cake has TWO chunky number-shaped candles 2 and 4 with tiny simple polygon flames. Medium waist-up eye-level composition, Katya centered, head and cake within central 70% safe crop, enough margin above head. A few subdued dusty pink triangular pennants on dark charcoal wall; intimate warm upper-left light while keeping face materials identical to canonical render. One character only. Celebratory but restrained late-90s in-game cutscene, no modern glossy cake photo, no lettering except candle numerals. Authentic late-1990s PS1 game engine asset matching the provided canonical Katya render: visibly angular low-polygon geometry, flat-shaded polygon facets, low-resolution pixelated painted textures, muted colors, fixed soft upper-left lighting. NOT a photograph with filter, NOT modern realistic 3D, NOT anime, NOT vector illustration. No text, UI, watermark, borders or logos."
+  }
+]
